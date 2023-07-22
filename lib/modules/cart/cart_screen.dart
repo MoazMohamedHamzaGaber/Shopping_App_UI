@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_projects/cubit/cubit.dart';
 import 'package:flutter_projects/cubit/states.dart';
-import 'package:flutter_projects/shared/components.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 
@@ -52,7 +51,6 @@ class CartScreen extends StatelessWidget {
                 ),
               ),
             ),
-            //appBar: buildAppBar(title: 'My Cart'),
             body: Column(
               children: [
                 Expanded(
